@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliy O'quv Yurti Tanlovi - Surovnoma</title>
+</head>
+<body>
+    <h1>Oliy O'quv Yurti Tanlovi Surovnomasi</h1>
+    <form action="#" method="POST">
+        
+        <label for="full_name">Ism va familiyangiz:</label><br>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+        
+        <label for="university">Qaysi oliy o'quv yurtini tanladingiz?</label><br>
+        <input type="text" id="university" name="university" required><br><br>
+        
+        <label for="major">Mutaxassisligingiz (faqat bitta yozing):</label><br>
+        <input type="text" id="major" name="major" required><br><br>
+        
+        <label>O'quv yurtini tanlashda eng muhim omil nima?</label><br>
+        <input type="radio" id="reputation" name="selection_factor" value="Reputatsiya" required>
+        <label for="reputation">Reputatsiya</label><br>
+        <input type="radio" id="location" name="selection_factor" value="Joylashuv">
+        <label for="location">Joylashuv</label><br>
+        <input type="radio" id="price" name="selection_factor" value="Narx">
+        <label for="price">Narx</label><br>
+        <input type="radio" id="facilities" name="selection_factor" value="Infratuzilma">
+        <label for="facilities">Infratuzilma</label><br><br>
+        
+        <label for="entrance_exam">O'quv yurtiga kirish imtihonining qiyinligi haqida qanday fikrdasiz?</label><br>
+        <select id="entrance_exam" name="entrance_exam" required>
+            <option value="Oson">Oson</option>
+            <option value="O'rtacha">O'rtacha</option>
+            <option value="Qiyin">Qiyin</option>
+        </select><br><br>
+        
+        <label for="academic_program">O'quv yurtining ta'lim dasturi haqida qanday fikrdasiz?</label><br>
+        <textarea id="academic_program" name="academic_program" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="scholarships">O'quv yurtida mavjud bo'lgan stipendiyalarni qanday baholaysiz?</label><br>
+        <input type="radio" id="yes" name="scholarships" value="Ha">
+        <label for="yes">Ha</label><br>
+        <input type="radio" id="no" name="scholarships" value="Yo'q">
+        <label for="no">Yo'q</label><br><br>
+        
+        <label for="student_life">Talabalar hayoti va faoliyatlari haqida qanday fikrdasiz?</label><br>
+        <textarea id="student_life" name="student_life" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="future_career">O'quv yurtining kelajakdagi kasb imkoniyatlari haqida qanday fikrdasiz?</label><br>
+        <select id="future_career" name="future_career" required>
+            <option value="Yaxshi">Yaxshi</option>
+            <option value="O'rtacha">O'rtacha</option>
+            <option value="Yomon">Yomon</option>
+        </select><br><br>
+        
+        <label for="additional_feedback">Qo'shimcha fikr va tavsiyalar:</label><br>
+        <textarea id="additional_feedback" name="additional_feedback" rows="4" cols="50"></textarea><br><br>
+        
+        <button type="submit">Yuborish</button>
+    </form>
+</body>
+</html>
